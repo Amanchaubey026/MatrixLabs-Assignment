@@ -2,6 +2,19 @@
 import "../styles/webview.css";
 // import '/'
 const WebView = ({ className = "" }) => {
+    const scrollToContent = (sectionId) => {
+        const element = document.getElementById(sectionId);
+        const offset = -10; 
+        const bodyRect = document.body.getBoundingClientRect().top;
+        const elementRect = element.getBoundingClientRect().top;
+        const elementPosition = elementRect - bodyRect;
+        const offsetPosition = elementPosition + offset;
+    
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: 'smooth'
+        });
+      };
   return (
     <div className="webview-container">
     <div className={`aigen ${className}`}>
@@ -72,7 +85,7 @@ const WebView = ({ className = "" }) => {
                 <div className="divframer-qlxsmk">
                   <div className="divframer-qlxsmk">
                     <div className="heading-1">
-                      <div className="iota-polygon-serum">
+                      <div id="feature" className="iota-polygon-serum">
                         IOTA polygon serum ipsum WAX terraUSD gala THETA.
                       </div>
                     </div>
@@ -302,7 +315,7 @@ const WebView = ({ className = "" }) => {
                     <img
                       className="divframer-1wc2mr1-icon"
                       alt=""
-                      src="/divframer1wc2mr1@2x.png"
+                      src="/keyboard.png"
                     />
                     <div className="divframer-7r32as">
                       <div className="divframer-1x2ic5x">
@@ -447,7 +460,7 @@ const WebView = ({ className = "" }) => {
               <div className="div31" />
               <div className="div32" />
             </div>
-            <div className="divframer-exx6ut-parent">
+            <div id="roadmap" className="divframer-exx6ut-parent">
               <div className="divframer-exx6ut">
                 <div className="heading-29">
                   <div className="tokenomics">Roadmap</div>
@@ -664,7 +677,7 @@ const WebView = ({ className = "" }) => {
                       <div className="divframer-r60psv">
                         <div className="divframer-1ar07aq">
                           <div className="divframer-qlxsmk">
-                            <div className="get-started1">Get Started</div>
+                            <div  className="get-started1">Get Started</div>
                           </div>
                         </div>
                         <div className="divframer-cyhhs-container">
@@ -788,13 +801,13 @@ const WebView = ({ className = "" }) => {
                   <div className="divframer-z4tdp5">
                     <div className="divframer-1ar07aq">
                       <div className="pframer-text">
-                        <div className="get-started">Features</div>
+                        <div onClick={() => scrollToContent('feature')} className="get-started">Features</div>
                       </div>
                     </div>
                     <div className="divframer-bycwkx">
                       <div className="divframer-1ar07aq">
                         <div className="pframer-text">
-                          <div className="get-started">Roadmap</div>
+                          <div onClick={() => scrollToContent('roadmap')} className="get-started">Roadmap</div>
                         </div>
                       </div>
                     </div>

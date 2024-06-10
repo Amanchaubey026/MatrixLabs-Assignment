@@ -225,6 +225,7 @@
   }
   .divframer-1ar07aq,
   .pframer-text {
+    cursor: pointer;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -1870,6 +1871,7 @@
   .svg73477249-2635 {
     position: absolute;
     left: -0.5px;
+  cursor: pointer;
   }
   .ai-gen1 {
     top: calc(50% - 6.9px);
@@ -2127,6 +2129,7 @@
   }
   .aigen2 {
     position: relative;
+    cursor: pointer;
     letter-spacing: 0.5em;
     font-weight: 500;
   }
@@ -2190,6 +2193,13 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+  }
+  .divframer-1pea9t31:hover {
+    transform: scale(.99);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #c20ef486;
+    border-radius: 5px;
   }
   .divframer-1pea9t31 {
     height: 40px;

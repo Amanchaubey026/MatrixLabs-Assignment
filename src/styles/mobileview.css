@@ -1145,12 +1145,14 @@
 }
 .ai-gen2,
 .div57 {
+  cursor: pointer;
   position: relative;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
 .ai-gen2 {
+   cursor: pointer;
   flex: 1;
 }
 .itemholder10 {
