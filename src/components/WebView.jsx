@@ -3,6 +3,7 @@ import "../styles/webview.css";
 // import '/'
 const WebView = ({ className = "" }) => {
   return (
+    <div className="webview-container">
     <div className={`aigen ${className}`}>
       <div className="divframer-uypth6-container" />
       <div className="divframer-1hts9ez-container">
@@ -853,6 +854,7 @@ const WebView = ({ className = "" }) => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };

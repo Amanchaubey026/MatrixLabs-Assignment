@@ -1,8 +1,9 @@
-import PropTypes from "prop-types";
+/* eslint-disable react/prop-types */
 import "../styles/mobileview.css";
 
 const MobileView = ({ className = "" }) => {
   return (
+    
     <div className={`mobile-view ${className}`}>
       <div className="div38" />
       <div className="div39" />
@@ -647,8 +648,6 @@ const MobileView = ({ className = "" }) => {
   );
 };
 
-MobileView.propTypes = {
-  className: PropTypes.string,
-};
+
 
 export default MobileView;
