@@ -356,7 +356,7 @@ const WebView = ({ className = "" }) => {
           <div className="scaliaapp-by-htmltodesign">
             <div className="divframer-exx6ut">
               <div className="heading-29">
-                <div className="tokenomics">Tokenomics</div>
+                <div id="tokenomics" className="tokenomics">Tokenomics</div>
               </div>
             </div>
             <div className="frame-group">
@@ -814,7 +814,7 @@ const WebView = ({ className = "" }) => {
                     <div className="divframer-bycwkx">
                       <div className="divframer-1ar07aq">
                         <div className="pframer-text">
-                          <div className="get-started">Tokenomics</div>
+                          <div onClick={() => scrollToContent('tokenomics')} className="get-started">Tokenomics</div>
                         </div>
                       </div>
                     </div>

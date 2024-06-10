@@ -8,6 +8,7 @@
   background: #000;
   box-sizing: border-box;
 }
+
 .divframer-uypth6-container {
     min-width: 1845px;
     margin: 0 !important;
@@ -2257,13 +2258,19 @@
     justify-content: center;
     max-width: 1312px;
   }
+  
   .diveoze3f,
   .nav {
     display: flex;
     max-width: 1440px;
+    
   }
   .nav {
+    position: fixed; /* or 'sticky' */
+    top: 0;
+    /* left: 0; */
     width: 100%;
+    z-index: 1000;
     backdrop-filter: blur(20px);
     background-color: rgba(0, 0, 0, 0.6);
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
