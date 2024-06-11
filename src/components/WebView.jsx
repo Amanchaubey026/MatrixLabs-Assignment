@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import "../styles/webview.css";
-// import '/'
+import picture from '../../public/picture@2x.png'
 const WebView = ({ className = "" }) => {
     const scrollToContent = (sectionId) => {
         const element = document.getElementById(sectionId);
@@ -46,19 +46,19 @@ const WebView = ({ className = "" }) => {
             <div className="div8" />
             <div className="jlej8rprduzxoo1osbzdpvxxcipng">
               <div className="column">
-                <img className="picture-icon" alt="" src="../../public/picture@2x.png" />
-                <img className="picture-icon" alt="" src="../../public/picture@2x.png" />
-                <img className="picture-icon" alt="" src="../../public/picture@2x.png" />
+                <img className="picture-icon" alt="" src={picture} />
+                <img className="picture-icon" alt="" src={picture} />
+                <img className="picture-icon" alt="" src={picture} />
               </div>
               <div className="column1">
-                <img className="picture-icon3" alt="" src="../../public/picture@2x.png" />
-                <img className="picture-icon4" alt="" src="../../public/picture@2x.png" />
-                <img className="picture-icon5" alt="" src="../../public/picture@2x.png" />
+                <img className="picture-icon3" alt="" src={picture} />
+                <img className="picture-icon4" alt="" src={picture} />
+                <img className="picture-icon5" alt="" src={picture} />
               </div>
               <div className="column">
-                <img className="picture-icon" alt="" src="../../public/picture@2x.png" />
-                <img className="picture-icon" alt="" src="../../public/picture@2x.png" />
-                <img className="picture-icon" alt="" src="../../public/picture@2x.png" />
+                <img className="picture-icon" alt="" src={picture} />
+                <img className="picture-icon" alt="" src={picture} />
+                <img className="picture-icon" alt="" src={picture} />
               </div>
             </div>
           </div>
@@ -127,39 +127,39 @@ const WebView = ({ className = "" }) => {
           <div className="divframer-1l8041i">
             <div className="jlej8rprduzxoo1osbzdpvxxcipng1">
               <div className="column3">
-                <img className="picture-icon9" alt="" src="/picture@2x.png" />
-                <img className="picture-icon9" alt="" src="/picture@2x.png" />
-                <img className="picture-icon9" alt="" src="/picture@2x.png" />
+                <img className="picture-icon9" alt="" src={picture} />
+                <img className="picture-icon9" alt="" src={picture} />
+                <img className="picture-icon9" alt="" src={picture} />
               </div>
               <div className="column4">
-                <img className="picture-icon12" alt="" src="/picture@2x.png" />
-                <img className="picture-icon13" alt="" src="/picture@2x.png" />
-                <img className="picture-icon14" alt="" src="/picture@2x.png" />
+                <img className="picture-icon12" alt="" src={picture} />
+                <img className="picture-icon13" alt="" src={picture} />
+                <img className="picture-icon14" alt="" src={picture} />
               </div>
               <div className="column5">
-                <img className="picture-icon9" alt="" src="/picture@2x.png" />
-                <img className="picture-icon9" alt="" src="/picture@2x.png" />
-                <img className="picture-icon9" alt="" src="/picture@2x.png" />
+                <img className="picture-icon9" alt="" src={picture} />
+                <img className="picture-icon9" alt="" src={picture} />
+                <img className="picture-icon9" alt="" src={picture} />
               </div>
               <div className="column6">
-                <img className="picture-icon18" alt="" src="/picture@2x.png" />
-                <img className="picture-icon18" alt="" src="/picture@2x.png" />
-                <img className="picture-icon14" alt="" src="/picture@2x.png" />
+                <img className="picture-icon18" alt="" src={picture} />
+                <img className="picture-icon18" alt="" src={picture} />
+                <img className="picture-icon14" alt="" src={picture} />
               </div>
               <div className="column7">
-                <img className="picture-icon9" alt="" src="/picture@2x.png" />
-                <img className="picture-icon9" alt="" src="/picture@2x.png" />
-                <img className="picture-icon14" alt="" src="/picture@2x.png" />
+                <img className="picture-icon9" alt="" src={picture} />
+                <img className="picture-icon9" alt="" src={picture} />
+                <img className="picture-icon14" alt="" src={picture} />
               </div>
               <div className="column8">
-                <img className="picture-icon9" alt="" src="/picture@2x.png" />
-                <img className="picture-icon14" alt="" src="/picture@2x.png" />
-                <img className="picture-icon14" alt="" src="/picture@2x.png" />
+                <img className="picture-icon9" alt="" src={picture} />
+                <img className="picture-icon14" alt="" src={picture} />
+                <img className="picture-icon14" alt="" src={picture} />
               </div>
               <div className="column9">
-                <img className="picture-icon9" alt="" src="/picture@2x.png" />
-                <img className="picture-icon9" alt="" src="/picture@2x.png" />
-                <img className="picture-icon14" alt="" src="/picture@2x.png" />
+                <img className="picture-icon9" alt="" src={picture} />
+                <img className="picture-icon9" alt="" src={picture} />
+                <img className="picture-icon14" alt="" src={picture} />
               </div>
             </div>
             <div className="divframer-uzeirh">
@@ -553,119 +553,119 @@ const WebView = ({ className = "" }) => {
                     <img
                       className="picture-icon30"
                       alt=""
-                      src="/picture@2x.png"
+                      src={picture}
                     />
                     <img
                       className="picture-icon30"
                       alt=""
-                      src="/picture@2x.png"
+                      src={picture}
                     />
                     <img
                       className="picture-icon30"
                       alt=""
-                      src="/picture@2x.png"
+                      src={picture}
                     />
                   </div>
                   <div className="column11">
                     <img
                       className="picture-icon33"
                       alt=""
-                      src="/picture@2x.png"
+                      src={picture}
                     />
                     <img
                       className="picture-icon34"
                       alt=""
-                      src="/picture@2x.png"
+                      src={picture}
                     />
                     <img
                       className="picture-icon35"
                       alt=""
-                      src="/picture@2x.png"
+                      src={picture}
                     />
                   </div>
                   <div className="column12">
                     <img
                       className="picture-icon30"
                       alt=""
-                      src="/picture@2x.png"
+                      src={picture}
                     />
                     <img
                       className="picture-icon30"
                       alt=""
-                      src="/picture@2x.png"
+                      src={picture}
                     />
                     <img
                       className="picture-icon30"
                       alt=""
-                      src="/picture@2x.png"
+                      src={picture}
                     />
                   </div>
                   <div className="column13">
                     <img
                       className="picture-icon39"
                       alt=""
-                      src="/picture@2x.png"
+                      src={picture}
                     />
                     <img
                       className="picture-icon39"
                       alt=""
-                      src="/picture@2x.png"
+                      src={picture}
                     />
                     <img
                       className="picture-icon35"
                       alt=""
-                      src="/picture@2x.png"
+                      src={picture}
                     />
                   </div>
                   <div className="column14">
                     <img
                       className="picture-icon30"
                       alt=""
-                      src="/picture@2x.png"
+                      src={picture}
                     />
                     <img
                       className="picture-icon30"
                       alt=""
-                      src="/picture@2x.png"
+                      src={picture}
                     />
                     <img
                       className="picture-icon35"
                       alt=""
-                      src="/picture@2x.png"
+                      src={picture}
                     />
                   </div>
                   <div className="column15">
                     <img
                       className="picture-icon30"
                       alt=""
-                      src="/picture@2x.png"
+                      src={picture}
                     />
                     <img
                       className="picture-icon35"
                       alt=""
-                      src="/picture@2x.png"
+                      src={picture}
                     />
                     <img
                       className="picture-icon35"
                       alt=""
-                      src="/picture@2x.png"
+                      src={picture}
                     />
                   </div>
                   <div className="column16">
                     <img
                       className="picture-icon30"
                       alt=""
-                      src="/picture@2x.png"
+                      src={picture}
                     />
                     <img
                       className="picture-icon30"
                       alt=""
-                      src="/picture@2x.png"
+                      src={picture}
                     />
                     <img
                       className="picture-icon35"
                       alt=""
-                      src="/picture@2x.png"
+                      src={picture}
                     />
                   </div>
                 </div>
