@@ -50,8 +50,8 @@ const WebView = ({ className = "" }) => {
                 <img className="picture-icon" alt="" src={picture} />
                 <img className="picture-icon" alt="" src={picture} />
               </div>
-              <div className="column1">
-                <img className="picture-icon3" alt="" src={picture} />
+              <div className="column1" id="ai-gen1">
+                <img id="head"  className="picture-icon3" alt="" src={picture} />
                 <img className="picture-icon4" alt="" src={picture} />
                 <img className="picture-icon5" alt="" src={picture} />
               </div>
@@ -70,7 +70,7 @@ const WebView = ({ className = "" }) => {
                     <div className="get-started">🎉</div>
                     <div className="divframer-1ar07aq">
                       <div className="pframer-text">
-                        <div className="new-in-aigen">
+                        <div id="feature" className="new-in-aigen">
                           New in AI.GEN: Real Time Interaction
                         </div>
                       </div>
@@ -85,7 +85,7 @@ const WebView = ({ className = "" }) => {
                 <div className="divframer-qlxsmk">
                   <div className="divframer-qlxsmk">
                     <div className="heading-1">
-                      <div id="feature" className="iota-polygon-serum">
+                      <div  className="iota-polygon-serum">
                         IOTA polygon serum ipsum WAX terraUSD gala THETA.
                       </div>
                     </div>
@@ -711,7 +711,7 @@ const WebView = ({ className = "" }) => {
                       <div className="divframer-z4vd5x">
                         <div className="svg">
                           <div className="svg73477249-2635">
-                            <div className="ai-gen1">AI. GEN</div>
+                            <div onClick={()=>scrollToContent('ai-gen1')} className="ai-gen1">AI. GEN</div>
                           </div>
                         </div>
                       </div>
@@ -797,7 +797,7 @@ const WebView = ({ className = "" }) => {
             <div className="divframer-b31v7u">
               <div className="divframer-13lwmx1">
                 <div className="divframer-1s63ybl">
-                  <div className="aigen2">AI.GEN</div>
+                  <div onClick={()=>scrollToContent('head')} className="aigen2">AI.GEN</div>
                   <div className="divframer-z4tdp5">
                     <div className="divframer-1ar07aq">
                       <div className="pframer-text">

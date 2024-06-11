@@ -378,7 +378,16 @@
     padding: 22px 32px var(--padding-base);
     box-sizing: border-box;
     z-index: 3;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Add transition for smooth effect */
   }
+  
+  /* Hover effect */
+  .divframer-1pea9t3:hover {
+    background-color: #9370DB; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 5px;
+  }
+  
   .button-large-button {
     border-radius: var(--br-5xs);
     display: flex;
